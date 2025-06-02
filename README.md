@@ -2,15 +2,12 @@
 
 ## Overview
 
-This project is a tool that automatically generates explanatory videos from a given prompt. 
+This project is a tool that automatically generates (explanatory) videos from a given prompt. 
 
 It uses the following technologies:
-* **Pydantic AI:** Used to create intelligent agents that process the prompt and generate the video script.
-* **Google Gemini:** The LLM that powers the agent, understanding the prompt and generating creative content.
-* **Manim:** A powerful animation engine for creating mathematical and explanatory videos.
-* **MoviePy:** A library for video editing, used here to combine the Manim-generated scenes into a final video.
+**Pydantic AI** | **Google Gemini** | **Manim** | **MoviePy** 
 
-In essence, you provide a prompt, and the system uses AI to create a video explaining the topic described in the prompt.
+In essence, you provide a prompt, and the system uses AI to create a video explaining the topic.
 
 ## Features
 

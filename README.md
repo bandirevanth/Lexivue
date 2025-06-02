@@ -40,7 +40,7 @@ Here's how to get the video generator up and running:
 
 3.  **Install Dependencies:**
 
-    * It's highly recommended to use a virtual environment to manage dependencies.  If you're not familiar with them, here's a quick primer:
+    * It's highly recommended to use a virtual environment to manage dependencies. For example:
         ```bash
         python3 -m venv .venv #create a virtual environment
         source .venv/bin/activate #activate the virtual environment.  If on windows use .\.venv\Scripts\activate

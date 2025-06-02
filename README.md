@@ -1,4 +1,4 @@
-# Qvid - An AI-powered Video Generator
+# Lexivue: An AI-powered Video Generator
 
 ## Overview
 

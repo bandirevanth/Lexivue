@@ -1,4 +1,4 @@
-# Lexivue: An AI-powered Video Generator
+# Lexivue: AI-powered Video Generator
 
 ## Overview
 

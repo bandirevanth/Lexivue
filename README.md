@@ -2,10 +2,11 @@
 
 ## Overview
 
-This project is a tool that automatically generates explanatory videos from a given prompt. It uses the following technologies:
+This project is a tool that automatically generates explanatory videos from a given prompt. 
 
+It uses the following technologies:
 * **Pydantic AI:** Used to create intelligent agents that process the prompt and generate the video script.
-* **Gemini:** The LLM that powers the agent, understanding the prompt and generating creative content.
+* **Google Gemini:** The LLM that powers the agent, understanding the prompt and generating creative content.
 * **Manim:** A powerful animation engine for creating mathematical and explanatory videos.
 * **MoviePy:** A library for video editing, used here to combine the Manim-generated scenes into a final video.
 
@@ -63,3 +64,4 @@ Here's how to get the video generator up and running:
 2.  The application will take a text prompt as input. (in streamlit/cmd line)
 3.  The AI will process the prompt, generate a video script, and then create the video.
 4.  The generated video will be saved to a `final.mp4` file.
+5.  Don't forget to star me on GitHub and follow me! Thanks :)

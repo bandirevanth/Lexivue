@@ -1,3 +1,93 @@
-media
-__pycache__
 config.py
+
+# === Python Basics ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*$py.class
+
+# Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+.venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Python dotenv
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+
+# Bytecode and logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Test and lint caches
+.cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pytype/
+.pyre/
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints
+
+# Streamlit cache
+.streamlit/
+
+# Manim media + cache
+media/
+videos/
+manim_temp/
+__manimcache__/
+
+# MoviePy
+moviepy_temp/
+
+# Nest_asyncio / concurrency debugging
+asyncio_debug.log
+
+# Pydantic cache/logs (if any custom integrations used)
+pydantic_cache/
+pydantic_ai_cache/
+
+# Misc credentials and security
+*.pem
+*.key
+*.json
+*.sqlite3
+*.db
+*.db-journal
+
+# Others
+*.token
+*.secret
+*.lock
+*.url
+*.uritemplate

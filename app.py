@@ -13,11 +13,12 @@ from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.gemini import GeminiModel
 from pydantic_ai.providers.google_gla import GoogleGLAProvider
 from config import api_key
+# Allows nested event loops, essential for running asyncio in envs like Streamlit.
 import nest_asyncio
 nest_asyncio.apply()
 import re
 
-# Configure logging
+# Sets up structured logging to track the program’s flow and errors.
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Configure your Gemini API key
@@ -102,6 +103,7 @@ def create_video_from_code(code: str, chapter_number: int) -> str:
     process = None
     try:
         command = ["manim", temp_file_name, "-ql", "--disable_caching"]
+        # Executes the Manim rendering command and captures stdout/stderr.
         process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, text=True)
         stdout, stderr = process.communicate(timeout=60)  # Add a timeout to prevent indefinite blocking
 

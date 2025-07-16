@@ -1,6 +1,5 @@
 config.py
 
-# === Python Basics ===
 __pycache__/
 *.py[cod]
 *.pyo
@@ -8,7 +7,6 @@ __pycache__/
 *.so
 *$py.class
 
-# Virtual Envs
 .venv/
 venv/
 ENV/
@@ -16,16 +14,13 @@ env/
 env.bak/
 .venv.bak/
 
-# IDEs and editors
 .vscode/
 .idea/
 *.code-workspace
 
-# Python dotenv
 .env
 .env.*
 
-# Build artifacts
 build/
 dist/
 *.egg-info/
@@ -38,25 +33,11 @@ dist/
 *.bak
 *.swp
 
-# Test and lint caches
-.cache/
-.pytest_cache/
-.coverage
-coverage.xml
-htmlcov/
-.mypy_cache/
-.dmypy.json
-.pytype/
-.pyre/
-
 # OS junk
 .DS_Store
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# Jupyter
-.ipynb_checkpoints
 
 # Streamlit cache
 .streamlit/
@@ -67,13 +48,11 @@ videos/
 manim_temp/
 __manimcache__/
 
-# MoviePy
 moviepy_temp/
 
 # Nest_asyncio / concurrency debugging
 asyncio_debug.log
 
-# Pydantic cache/logs (if any custom integrations used)
 pydantic_cache/
 pydantic_ai_cache/
 
@@ -81,13 +60,7 @@ pydantic_ai_cache/
 *.pem
 *.key
 *.json
-*.sqlite3
-*.db
-*.db-journal
 
 # Others
 *.token
 *.secret
-*.lock
-*.url
-*.uritemplate
